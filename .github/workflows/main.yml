@@ -1,3 +1,7 @@
+name: Deploys
+
+on: [push, pull_request]
+
 jobs:
   buildForAndroidPlatform:
     name: Build For Android Platform
